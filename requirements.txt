@@ -1,0 +1,62 @@
+# ============================================
+# FASTAPI & API SERVER
+# ============================================
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.4.2
+python-multipart==0.0.6
+
+# ============================================
+# MACHINE LEARNING & TRANSFORMERS
+# ============================================
+torch==2.0.1
+transformers==4.34.1
+numpy==1.24.3
+scikit-learn==1.3.2
+scipy==1.11.4
+
+# ============================================
+# WEEK 6: REDIS CACHING
+# ============================================
+# redis==5.0.1              # Redis client
+redis-py-cluster==2.1.3   # For Redis Cluster (optional)
+aioredis==2.0.1           # Async Redis support (CRITICAL!)
+
+# ============================================
+# WEEK 6: POSTGRESQL LOGGING & ANALYTICS
+# ============================================
+asyncpg==0.29.0           # Async PostgreSQL driver (CRITICAL!)
+psycopg2-binary==2.9.9    # Sync PostgreSQL (fallback)
+sqlalchemy==2.0.23        # ORM (optional, for migrations)
+alembic==1.12.1           # Database migrations (optional)
+
+# ============================================
+# DATA HANDLING
+# ============================================
+pandas==2.1.3
+python-dateutil==2.8.2
+
+# ============================================
+# ENVIRONMENT & CONFIG
+# ============================================
+python-dotenv==1.0.0
+
+# ============================================
+# MONITORING & LOGGING (OPTIONAL - Week 7)
+# ============================================
+prometheus-client==0.19.0  # Metrics collection
+structlog==23.2.0          # Structured logging
+
+# ============================================
+# TESTING & DEVELOPMENT
+# ============================================
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+pytest-cov==4.1.0
+
+# ============================================
+# UTILITIES
+# ============================================
+requests==2.31.0
+pytz==2023.3.post1
