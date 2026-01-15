@@ -1,0 +1,71 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.Python
+*.pyc
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+ENV/
+env/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =========================
+# Secrets & Logs
+# =========================
+.env
+.env.local
+*.log
+logs/
+
+# =========================
+# Databases & Cache
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+.cache/
+Redis_data/
+
+# =========================
+# Models (DO NOT COMMIT)
+# =========================
+models/
+*.safetensors
+*.bin
+*.pt
+*.zip
+
+# =========================
+# Outputs (generated)
+# =========================
+outputs/
+results/
+
+# =========================
+# Tests (generated data only)
+# =========================
+tests/__pycache__/
+
+# =========================
+# Packaging
+# =========================
+dist/
+build/
+*.egg-info/
