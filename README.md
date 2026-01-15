@@ -1,15 +1,3 @@
-# BERT News Classifier - End-to-End ML System Design
-
-## 📋 Project Overview
-
-Production-ready news article classification system using BERT fine-tuning. Implements data-centric ML principles with systematic error analysis and temporal validation.
-
-**Performance:**
-- Week 1 (Baseline): 78% accuracy
-- Week 2 (Data Engineering): 82% accuracy  
-- Week 3 (TF-IDF + Features): 85% accuracy
-- Week 4 (BERT Fine-tuning): **90%+ accuracy**
-
 
 # 🎯 BERT News Classifier - Production ML System
 
